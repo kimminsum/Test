@@ -1,0 +1,1 @@
+_=list(map(int,input().split(" ")));print(-1) if _[1]>=_[2] else print(sum(_[:2])//_[2]+1)
